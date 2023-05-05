@@ -1,4 +1,4 @@
-package me.CHANGEME.slimefunaddon;
+package me.kingdom84521.monsterology;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -13,7 +13,7 @@ import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 
-public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
+public class MonsterologyAddon extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
@@ -22,6 +22,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
 
         if (cfg.getBoolean("options.auto-update")) {
             // You could start an Auto-Updater for example
+            return;
         }
 
         /*
